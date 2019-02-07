@@ -8,13 +8,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HelloWorldViewController: UIViewController {
 
+    @IBOutlet weak var labelText: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func helloPress(_ sender: Any) {
+        labelText.text = "Hello World!"
+    }
+    
+    @IBAction func clearPress(_ sender: Any) {
+        labelText.text = ""
+    }
+    
 }
 

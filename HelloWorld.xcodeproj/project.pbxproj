@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E77F4487220BD64500A58841 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77F4486220BD64500A58841 /* AppDelegate.swift */; };
-		E77F4489220BD64500A58841 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77F4488220BD64500A58841 /* ViewController.swift */; };
+		E77F4489220BD64500A58841 /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77F4488220BD64500A58841 /* HelloWorldViewController.swift */; };
 		E77F448C220BD64500A58841 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77F448A220BD64500A58841 /* Main.storyboard */; };
 		E77F448F220BD64500A58841 /* HelloWorld.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E77F448D220BD64500A58841 /* HelloWorld.xcdatamodeld */; };
 		E77F4491220BD64600A58841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77F4490220BD64600A58841 /* Assets.xcassets */; };
@@ -29,7 +29,7 @@
 /* Begin PBXFileReference section */
 		E77F4483220BD64500A58841 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77F4486220BD64500A58841 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E77F4488220BD64500A58841 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E77F4488220BD64500A58841 /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
 		E77F448B220BD64500A58841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E77F448E220BD64500A58841 /* HelloWorld.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelloWorld.xcdatamodel; sourceTree = "<group>"; };
 		E77F4490220BD64600A58841 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				E77F4486220BD64500A58841 /* AppDelegate.swift */,
-				E77F4488220BD64500A58841 /* ViewController.swift */,
+				E77F4488220BD64500A58841 /* HelloWorldViewController.swift */,
 				E77F448A220BD64500A58841 /* Main.storyboard */,
 				E77F4490220BD64600A58841 /* Assets.xcassets */,
 				E77F4492220BD64600A58841 /* LaunchScreen.storyboard */,
@@ -201,7 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E77F448F220BD64500A58841 /* HelloWorld.xcdatamodeld in Sources */,
-				E77F4489220BD64500A58841 /* ViewController.swift in Sources */,
+				E77F4489220BD64500A58841 /* HelloWorldViewController.swift in Sources */,
 				E77F4487220BD64500A58841 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
